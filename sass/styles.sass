@@ -1,0 +1,146 @@
+// GENERAL STYLES
+body
+    overflow-x: hidden
+.menu-wrap
+    .hvr-underline-from-left
+        padding: 10px
+        &:before
+            background: black
+.bg-black
+    background: #000
+    h2, h3, p, i
+        color: #f7f7f7
+    .btn-custom
+        border: solid 1px white
+    .hvr-radial-out
+        background: #000
+        color: #fff
+        &:hover
+            text-decoration: none
+            color: #000
+    .hvr-radial-out:before
+        background: #fff
+.btn-custom
+    text-decoration: none
+    color: #000
+    border: solid 1px black
+    padding: 10px
+    transition: all ease .3s
+.btn-custom-black
+     &:hover
+        text-decoration: none
+        color: #ffffff
+        background: black
+i
+    font-size: 40px
+    color: black    
+.space
+    padding-top: 50px
+    padding-bottom: 50px
+#img-logo
+    background: url(../img/beard2.png) 100%/contain no-repeat
+    height: 100px
+    position: fixed
+    top: 20px
+    left: 0
+    width: 160px
+    z-index: 9
+// SECTIONS STYLES
+.grey1
+    position: fixed
+    top: 0
+    left: 0
+    height: 150px
+    width: 200px
+    background: lightgrey
+    border-radius: 0 0 50% 0
+    z-index: 8
+#home
+    margin-top: 20px
+#about
+    margin-top: 20px
+#searcher
+    .hvr-radial-out
+        background: #fff
+        &:hover
+            text-decoration: none
+    .hvr-radial-out:before
+        background: #000            
+#videogame
+    .hvr-radial-out
+        background: #fff
+        &:hover
+            text-decoration: none
+    .hvr-radial-out:before
+        background: #000   
+#footer
+    .bg-black
+        border-radius: 0 50% 0 0        
+        img
+            width: 4%
+            opacity: .3
+        p, i
+            font-size: 12px
+        a
+            text-decoration: none
+            &:hover
+                text-decoration: none
+    .bg-lightgrey
+        background: lightgrey
+        i
+            font-size: 30px
+            transition: all ease 1s
+        a
+            padding: 5px            
+            i
+                &:hover
+                    transform: rotateY(180deg) 
+        .fa-facebook-f
+            font-size: 27px
+
+#contact2
+    margin-top: 20px
+    a
+        text-decoration: none
+        &:hover
+            text-decoration: none
+    p, i, a
+        font-size: 20px
+    .bg-lessblack
+        background: #3a3a3a
+    a, h5
+        color: #f7f7f7
+    label, input, textarea
+        display: block
+        width: 100%
+        border: none
+        background: none
+        color: #f7f7f7
+    input, textarea
+        border-bottom: solid 1px #f7f7f7 
+        &:focus
+            outline: none
+    .hvr-radial-out
+        background: #f7f7f7
+    .boxShadow
+        box-shadow: rgba(0.5, 0.5, 0.5, 0.5) 0px 15px 30px -10px
+    .btn-custom
+        color: black
+        cursor: pointer
+        &:hover
+            color: #f7f7f7
+    .hvr-radial-out:before
+        background: #000  
+
+@media (max-width: 600px)
+    #footer 
+        .bg-black img
+            width: 14%
+    #home
+        margin-top: 180px
+    #about
+        margin-top: 180px
+        .rounded-circle
+            width: 160px    
+    #contact2
+        margin-top: 180px   
